@@ -1,9 +1,9 @@
-from airflow.hooks.base_hook import BaseHook
 from datetime import datetime
-
 import email
 import imaplib
 import boa
+
+from airflow.hooks.base_hook import BaseHook
 
 
 class ImapHook(BaseHook):
